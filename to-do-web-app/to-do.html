@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="TO-DO.CSS">
+</head>
+
+<body>
+    <h1><center>To-do-List</center></h1>
+    <div class="container">
+        <div class="to-do-form">
+            <form>
+                <input type="text" id="text" class="todo-task-input margin" placeholder="Task"><br>
+                <textarea name="description" class="todo-desc margin" id="textarea" cols="30" rows="10" placeholder="Description"></textarea>
+                <input type="submit" class="submit-btn">
+                <input type="reset" class="reset-btn">
+            </form>
+        </div>
+    </br>
+</br>
+        <div class="todos">
+            <table class="todo-table">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Description</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody class="todo-table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="TO-DO.JS"></script>
+</body>
+
+</html>
