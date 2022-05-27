@@ -1,0 +1,133 @@
+body {
+    margin: 0 120px;
+    background:rgb(118, 178, 180);
+    color: #fff;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #96989b;
+    padding-left: 50px;
+    border: 2px solid rgb(10, 248, 228);
+    border-radius: 25px;
+}
+
+h1:hover {
+    background-color: #14a1ff8c;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+}
+
+.todos,
+.todo-form {
+    margin: 0 25px;
+    margin-right: 40px;
+}
+
+.todo-form {
+    width: 25%;
+}
+
+.todos {
+    width: 60%;
+}
+
+.todo-table {
+    width: 100%;
+    border: none;
+}
+
+#text {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    border: 5px solid rgb(148, 148, 196);
+}
+
+#textarea {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-radius: 25px;
+    padding: 5px;
+    border: 5px solid rgb(148, 178, 196);
+    align-self: center;
+}
+
+.submit-btn {
+    background-color: rgb(148, 148, 196);
+    width: 100px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    right: 200px;
+}
+
+.reset-btn {
+    background-color: rgb(148, 148, 148);
+    width: 100px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.todo-table th,
+td {
+    text-align: center;
+}
+
+.margin {
+    margin: 8px 0;
+    width: 100%;
+}
+
+.todo-task-input {
+    height: 25px;
+}
+
+.todo-table-body tr {
+    background: #fafafa;
+    color: #000;
+}
+
+.remove-todo {
+    background-color: rgba(142, 136, 238, 0.716);
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+.remove-todo:hover {
+    background-color: rgb(157, 157, 157);
+    color: #fff;
+}
+
+.todo-table thead {
+    padding-top: 15px;
+}
+
+.todo-table thead tr th {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.todos {
+    
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 25px;
+    margin-left: 20px;
+    padding-left: 100px;
+    
+}
